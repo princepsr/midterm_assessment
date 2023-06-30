@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: burlywood;
+    color: #fff;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+}
+
+.photo-card {
+    width: 290px;
+    margin: 10px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: bisque;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-card h2{
+    font-size: 18px;
+    text-align: center;
+    margin:0 5px;
+}
